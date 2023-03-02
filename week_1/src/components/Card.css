@@ -1,0 +1,47 @@
+.Card{ 
+    color: rgb(30, 112, 171);
+    background-color: white;
+    padding-bottom: 20px;
+    box-shadow: 0 15px 25px #817c7c33;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    border-radius: 14px;
+    height: 450px;
+    width: auto;
+    flex-wrap: wrap;
+    border: 1px transparent;
+
+   
+}
+
+
+.ticket-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+    padding: 20px 14px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 7px;
+    border: none;
+    color: #fdfcfc;
+    background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+    background-origin: border-box;
+    box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+    height: 50px;
+    width: 150px; 
+    bottom: 20%;
+    position: relative; right: -120px; top: 20px;
+    line-height: 80px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    font-size: x-large;
+    font-variant-position: inherit;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
+.ticket-button:hover {
+    box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+    outline: 0;
+    background-color: #4caf50;
+    
+}

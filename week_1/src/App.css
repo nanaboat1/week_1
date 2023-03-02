@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  color: black; 
+  background-color: transparent;
+  vertical-align: middle;
+  border-radius: 20px;
+
+}
+
+body { 
+  margin: 0 auto; 
+  place-items: center; 
+  min-width: 20px;
+  min-height: 100vh; 
+  background-image: url('https://media.cntraveler.com/photos/5e66a338b93f0800081a6f28/16:9/w_2240,c_limit/santiago-bernabe%CC%81u-stadium-madrid-2020-GettyImages-1194733745.jpg');
+}
+
+.App{ 
+  display: -webkit-flex;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 40px;
+}
+
+.title {
+  align-items: center;
+  justify-content: center;
+  font-size: 70px;
+  font-weight: 900;
+  color: rgb(31, 175, 132);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  opacity: 70%;
+}
